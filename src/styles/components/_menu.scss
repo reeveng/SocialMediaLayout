@@ -1,0 +1,35 @@
+.c-menu {
+  background: $backgroundMenu;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  border-right: solid hsla(0, 0%, 0%, 0.05) 1px;
+
+  .c-menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    width: 100%;
+    text-decoration: none;
+    color: $textColorMenu;
+
+    &:first-of-type {
+      margin-top: 1.5rem;
+    }
+
+    svg {
+      filter: $filter-light-gray;
+      width: 24px;
+      height: 24px;
+    }
+
+    &.selected {
+      border-left: solid $blue 3px;
+      border-right: solid transparent 3px;
+      filter: $filter-blue;
+    }
+  }
+}

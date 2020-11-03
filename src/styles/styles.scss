@@ -1,0 +1,18 @@
+// config
+@import './config/colors';
+
+// components
+@import './components/menu', './components/list';
+
+// pages
+@import './pages/home';
+
+body,
+html,
+.App,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+$dark-white: #f2f2fd;
+$light-blue: #eef2f6;
+$light-gray: #96a0af;
+$blue: #216fed;
+$black: #121212;
+$white: #f9fafc;
+
+$primary: $dark-white;
+$secondary: $black;
+$accent: $blue;
+
+$backgroundHome: $dark-white;
+$backgroundMenu: $light-blue;
+$backgroundList: $light-blue;
+
+$textColorMenu: $light-gray;
+
+// filter
+$filter-light-gray: brightness(0) saturate(100%) invert(71%) sepia(6%) saturate(712%) hue-rotate(177deg) brightness(89%)
+  contrast(92%);
+$filter-blue: brightness(0) saturate(100%) invert(35%) sepia(95%) saturate(1075%) hue-rotate(197deg) brightness(90%)
+  contrast(108%);

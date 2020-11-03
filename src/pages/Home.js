@@ -1,10 +1,14 @@
 import React from 'react';
+import List from '../components/UserList';
+import Menu from '../components/Menu';
 
 const Home = () => {
   return (
-    <h1>
+    <div className="homepage">
+      <Menu></Menu>
+      <List></List>
       Hello world
-    </h1>
+    </div>
   );
 };
 
